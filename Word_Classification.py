@@ -165,6 +165,8 @@ clf.predict(test_vectors)
 print("Logistic Regression Accuracy Score -> ",clf.score(train_vectors,y_train))
 
 
-# The accuracy of predicting the language of a given word is close to 90% for each algorithm. In this case I could say that,with only one feature the accuracy of a word classification is almost satisfying.
+# The accuracy of predicting the language of a given word is close to 90% for each algorithm. 
+# In this case I could say that,with only one feature the accuracy of a word classification is almost satisfying.
 # The weak part of the algorithm is that we just used randomly selected words instead of Texts.
-# If we are using texts instead of words which will give use opportunity to use more Natural Language Process techniques we will have a higher accuracy.
+# If we are using texts instead of words which will give use opportunity to use more Natural Language Process techniques
+# and therefore we will make better predictions.
